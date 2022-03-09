@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e76db1c6-899b-45c2-9292-3b28312b551d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2022-03-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2022-03-01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DungeonGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DungeonGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RoomBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646134371458</updated>
       <workItem from="1646134387570" duration="134000" />
-      <workItem from="1646134546293" duration="1568000" />
+      <workItem from="1646134546293" duration="10655000" />
     </task>
     <servers />
   </component>

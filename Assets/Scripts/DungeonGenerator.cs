@@ -36,14 +36,9 @@ public class DungeonGenerator : MonoBehaviour
         {
             for (int j = 0; j < size.y; j++)
             {
-                Cell currentCell = board[Mathf.FloorToInt(i + j * size.x)];
-                if (currentCell.viisted)
-                {
-                    var newRoom = Instantiate(room, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviour>();
-                    newRoom.UpdateRoom(currentCell.status);
-                
-                    newRoom.name += " " + i + "-" + j;
-                }
+                var newRoom = Instantiate(room, new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviour>();
+                newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
+                newRoom.name += " " + i + "-" + j;
             }
         }
     }
